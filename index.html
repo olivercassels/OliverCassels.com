@@ -589,12 +589,17 @@
         </div>
         <div class="hero-photo-wrap reveal" style="transition-delay: 0.15s">
           <div class="hero-photo-frame">
-            <img
-              src="olly-cassels.jpg"
-              alt="Oliver Cassels, executive search adviser"
-              class="hero-photo"
-              width="600"
-            />
+            <picture>
+              <source srcset="olly-cassels.webp" type="image/webp" />
+              <img
+                src="olly-cassels.jpg"
+                alt="Oliver Cassels, executive search adviser"
+                class="hero-photo"
+                width="900"
+                height="900"
+                fetchpriority="high"
+              />
+            </picture>
           </div>
         </div>
       </div>
